@@ -1,0 +1,12 @@
+
+ El numero de componentes de u y v es:
+           4
+
+ El vector u es:
+   1.00000000       2.00000000       3.00000000       4.00000000    
+
+ El vector v es:
+   0.00000000      -2.00000000       0.00000000      -4.00000000    
+
+ El producto escalar de u y v es:
+  -20.0000000    
