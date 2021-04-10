@@ -1,0 +1,30 @@
+
+ Introducir orden del S.E.L: 
+
+           3
+
+
+ ****Lectura de datos****
+
+
+ La matriz del S.E.L. A es:
+  0.5000E+01  0.2000E+01  0.1000E+01
+  0.5000E+01 -0.6000E+01  0.2000E+01
+ -0.4000E+01  0.2000E+01  0.1000E+01
+
+ El termino independiente b es:
+  0.1000E+01  0.1000E+01  0.1000E+01
+ La matriz triangular superior A es:
+   5.0000000000000000        2.0000000000000000        1.0000000000000000     
+   0.0000000000000000       -8.0000000000000000        1.0000000000000000     
+   0.0000000000000000        0.0000000000000000        2.2500000000000000     
+
+ El determinante de la matriz equivalente es: 
+
+  -90.000000000000000     
+
+
+ El término independiente del sistema equivalente es: 
+
+   1.0000000000000000        0.0000000000000000        1.8000000000000000     
+
