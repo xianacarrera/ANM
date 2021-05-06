@@ -1,0 +1,25 @@
+
+ El numero de filas de A es:
+   2
+
+ El numero de columnas de A y de filas de B es:
+   3
+
+ El numero de columnas de B es:
+   2
+
+ La matriz A es:
+  0.1000E+01  0.2000E+01  0.3000E+01
+  0.4000E+01  0.5000E+01  0.6000E+01
+
+ La matriz B es:
+ -0.1000E+01 -0.2000E+01
+ -0.1000E+02 -0.2000E+02
+ -0.5000E+01 -0.5000E+01
+
+ Multiplicación elemento a elemento de las matrices
+  -36.0000000      -57.0000000    
+  -84.0000000      -138.000000    
+
+ Multiplicación directa de las matrices
+  -36.0000000      -84.0000000      -57.0000000      -138.000000    

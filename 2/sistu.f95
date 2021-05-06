@@ -1,4 +1,7 @@
 subroutine sistu(n,a,b,u)
+    !*********************************************************
+    !Subrutina de resolucion de un sistema con matriz triangular superior
+    !********************************************************
 
     use mod_clreal
 

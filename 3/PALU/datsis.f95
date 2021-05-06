@@ -25,12 +25,14 @@ subroutine datsis(n, a, b)
     print*,'La matriz del S.E.L. A es:'
     do i = 1,n
         read*, a(i,:)
+        !print formato2, a(i,:)
         print formato2, a(i,:)
     end do
 
     print*
     print*,'El termino independiente b es:'
     read*, b
+    !print formato2, b
     print formato2, b
 
 end subroutine datsis

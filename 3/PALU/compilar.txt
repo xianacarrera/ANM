@@ -1,0 +1,1 @@
+gfortran -o lupp_ppal.exe lupp_ppal.f95 lupp.f95 datsis.f95 residuo.f95 sistupf2.f95 sistlpf1.f95

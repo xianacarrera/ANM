@@ -1,4 +1,7 @@
 subroutine sistl(n,a,b,u)
+    !*********************************************
+    !Subrutina de resolucion de un sistema con matriz triangular inferior
+    !********************************************
 
     use mod_clreal
 
@@ -25,7 +28,7 @@ subroutine sistl(n,a,b,u)
     !end do
 
     ! Forma más eficiente:
-    do i = 1, n
+    do i = 1,n
         u(i) = b(i)/a(i,i)
         ! Ahora que sé u para la columna i, le resto al término independiente de las siguientes filas el elemento de la matriz de cada fila y la columna i 
         b(i+1:n) = b(i+1:n) - a(i+1:n,i)*u(i)

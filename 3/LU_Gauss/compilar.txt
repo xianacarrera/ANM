@@ -1,0 +1,1 @@
+gfortran -o lu_ppal.exe lu_ppal.f95 lu.f95 residuo.f95 sistl1.f95 sistu.f95 datsis.f95

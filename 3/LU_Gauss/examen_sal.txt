@@ -1,0 +1,49 @@
+ ****Resolucion del sistema por factorizacion LU****
+
+ Introducir orden del S.E.L: 
+   5
+
+
+ ****Lectura de datos****
+
+
+ La matriz del S.E.L. A es:
+  0.5000E+01  0.6000E+01 -0.1000E+01  0.0000E+00  0.0000E+00
+ -0.6000E+01  0.5000E+01  0.6000E+01 -0.1000E+01  0.0000E+00
+  0.1000E+01 -0.6000E+01  0.5000E+01  0.6000E+01 -0.1000E+01
+  0.0000E+00  0.1000E+01 -0.6000E+01  0.5000E+01  0.6000E+01
+  0.0000E+00  0.0000E+00  0.1000E+01 -0.6000E+01  0.5000E+01
+
+ El termino independiente b es:
+ -0.1500E+01 -0.1000E+02  0.2150E+02  0.6000E+01 -0.1150E+02
+
+ ****Fin de la lectura de datos****
+
+
+ La matriz triangular superior U es:
+  0.5000E+01  0.6000E+01 -0.1000E+01  0.0000E+00  0.0000E+00
+  0.0000E+00  0.1220E+02  0.4800E+01 -0.1000E+01  0.0000E+00
+  0.0000E+00  0.0000E+00  0.8033E+01  0.5410E+01 -0.1000E+01
+  0.0000E+00  0.0000E+00  0.0000E+00  0.9388E+01  0.5204E+01
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.8824E+01
+
+ La matriz triangular inferior L es:
+  0.1000E+01
+ -0.1200E+01  0.1000E+01
+  0.2000E+00 -0.5902E+00  0.1000E+01
+  0.0000E+00  0.8197E-01 -0.7959E+00  0.1000E+01
+  0.0000E+00  0.0000E+00  0.1245E+00 -0.7109E+00  0.1000E+01
+
+ El determinante de la matriz equivalente es: 
+  0.4059E+05
+
+
+ La solucion del sistema triangular inferior es: 
+ -0.1500E+01 -0.1180E+02  0.1484E+02  0.1878E+02  0.0000E+00
+
+ La solucion del sistema es: 
+  0.1000E+01 -0.1000E+01  0.5000E+00  0.2000E+01  0.0000E+00
+
+ El residuo es: 
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+

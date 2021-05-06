@@ -1,7 +1,6 @@
- ****Resolución del sistema por factorización LU****
+ ****Resolucion del sistema por factorizacion LU****
 
  Introducir orden del S.E.L: 
-
            3
 
 
@@ -16,6 +15,9 @@
  El termino independiente b es:
   0.1800E+02  0.2500E+02  0.2400E+02
 
+ ****Fin de la lectura de datos****
+
+
  La matriz triangular superior U es:
    5.0000000000000000        7.0000000000000000        6.0000000000000000     
    0.0000000000000000       0.20000000000000107      -0.39999999999999858     
@@ -27,14 +29,15 @@
    1.2000000000000000       -1.9999999999999911                1
 
  El determinante de la matriz equivalente es: 
-
    2.0000000000000178     
 
 
- La solución del sistema es: 
+ La solucion del sistema triangular inferior es: 
+   18.000000000000000      -0.19999999999999929        2.0000000000000053     
+
+ La solucion del sistema es: 
    1.0000000000000158       0.99999999999998945       0.99999999999999911     
 
  El residuo es: 
-
    2.5197347937903574E-322   0.0000000000000000        0.0000000000000000     
 

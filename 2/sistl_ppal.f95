@@ -1,4 +1,6 @@
 program sistl_ppal
+    !Programa principal para la resolucion de un sistema triangular inferior,
+    !Au=b
 
     use mod_clreal
 
@@ -10,6 +12,13 @@ program sistl_ppal
 
     character(len=4)::formato1 = '(i4)'
     character(len=10)::formato2 = '(100e12.4)'
+
+    print*
+    print*,'*************************************'
+    print*,'Calculo de la solucion de un sistema con matriz triangular inferior'
+    print*,'                        Au=b'
+    print*,'*************************************'
+    print*
 
     print*
     print*,'El orden de A es:'

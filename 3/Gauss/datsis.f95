@@ -2,15 +2,15 @@ subroutine datsis(n, a, b)
     !*******************************************************************
     !Lectura y escritura de:
     !A matriz cuadrada
-    !b término independiente
+    !b termino independiente
     !*******************************************************************
 
-    use mod_clreal      !Módulo donde está la clase definida de reales (clreal)
+    use mod_clreal      !modulo donde está la clase definida de reales (clreal)
     implicit none
 
-    integer, intent(in)::n                       !Orden del S.E.L.
-    real(kind=clreal),intent(out)::a(n,n)        !Matriz del S.E.L.
-    real(kind=clreal),intent(out)::b(n)          !Término independiente
+    integer, intent(in)::n                       !orden del S.E.L.
+    real(kind=clreal),intent(out)::a(n,n)        !matriz del S.E.L.
+    real(kind=clreal),intent(out)::b(n)          !termino independiente
 
     !variables locales
     integer::i
@@ -20,16 +20,19 @@ subroutine datsis(n, a, b)
     print*,'****Lectura de datos****'
     print*
 
-    !Lectura y escritura de la matriz del S.E.L.
+    !lectura y escritura de la matriz del S.E.L.
     print*
     print*,'La matriz del S.E.L. A es:'
+    print*
     do i = 1,n
         read*, a(i,:)
         print formato2, a(i,:)
     end do
 
+    !lectura y escritura del termino independiente del S.E.L.
     print*
     print*,'El termino independiente b es:'
+    print*
     read*, b
     print formato2, b
 
