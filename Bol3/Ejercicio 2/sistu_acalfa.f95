@@ -15,18 +15,18 @@ subroutine sistu_acalfa(n,a,c,b,u)
     real(kind=clreal), dimension(n), intent(in)::       b  !termino independiente del S.E.L.
     real(kind=clreal), dimension(n), intent(out)::      u  !solucion del S.E.L.
 
-    !variables locales
-    integer::i,j
+    !variable local
+    integer::i
 
     !los unicos elementos no nulos en las filas 2,...,n son los de la diagonal
-    do i=n,2,-1
+    do i=2,n
         u(i) = b(i)/a(i)
     end do
 
     !primera fila (completa)
     u(1) = b(1)
-    do j=2,n
-        u(1) = u(1) - c(j-1)*u(j) 
+    do i=2,n
+        u(1) = u(1) - c(i-1)*u(i) 
     end do
     u(1) = u(1)/a(1)
 
