@@ -1,0 +1,1 @@
+gfortran -o cholesky_ppal.exe cholesky_ppal.f95 cholesky.f95 datsissim.f95 residuosim.f95 sistl.f95 sistusim.f95

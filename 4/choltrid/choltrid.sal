@@ -1,0 +1,35 @@
+ ************ Resolucion del S.E.L. Au=b ************
+
+          Factorizacion de Cholesky        
+              Caso tridiagonal
+
+ Introducir orden del S.E.L: 
+           3
+
+
+ La diagonal principal de A es:
+   1.0000000000000000        1.2500000000000000        11.250000000000000     
+ La subdiagonal de A es:
+ -0.50000000000000000        1.5000000000000000     
+
+ El termino independiente del S.E.L. es:
+ -0.50000000000000000        1.7500000000000000        11.250000000000000     
+
+  En la factorizacion A=BB
+  La diagonal principal de B es:
+   1.0000000000000000        1.0000000000000000        3.0000000000000000     
+  La subdiagonal de B es:
+ -0.50000000000000000        1.5000000000000000     
+
+  El determinante de la matriz del S.E.L. es:
+   9.0000000000000000     
+
+
+  La solucion es:
+ -0.50000000000000000        0.0000000000000000        1.0000000000000000     
+
+  El residuo del sistema, r=Au-b, es:
+   0.0000000000000000        0.0000000000000000        0.0000000000000000     
+
+  La norma ||r|| es:   0.0000000000000000     
+                2 

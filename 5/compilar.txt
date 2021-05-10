@@ -1,0 +1,1 @@
+gfortran -o jacobi_ppal.exe jacobi_ppal.f95 jacobi.f95 initer.f95 residuo.f95
