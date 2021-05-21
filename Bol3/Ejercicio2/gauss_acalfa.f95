@@ -49,15 +49,15 @@ subroutine gauss_acalfa(n, a, c, alfa, b, deter)
 
     end do
 
-    !Comprobacion de que el
-    !ultimo pivote no es nulo
-    if(abs(a(n))<1.e-12) then
-        print*, 'pivote nulo en la etapa: ',n
-        stop
-    end if
-
     !Se guardan los cambios sobre la diagonal (elemento a_nn)
     a(n)=a(n) - alfa*c(n-1)/a(1)
+
+    !Comprobacion de que el
+    !ultimo elemento diagonal no es nulo
+    if(abs(a(n))<1.e-12) then
+        print*, 'elemento diagonal', n, 'nulo'
+        stop
+    end if
 
     !Finalizacion del calculo del determinante
     deter=deter*a(n)
